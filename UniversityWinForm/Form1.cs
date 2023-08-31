@@ -11,5 +11,11 @@ namespace UniversityWinForm
         {
 
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+             new Form2().Show();
+            this.Hide();    
+        }
     }
 }

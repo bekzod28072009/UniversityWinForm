@@ -251,6 +251,7 @@
             label9.Size = new Size(90, 30);
             label9.TabIndex = 20;
             label9.Text = "Logout";
+            label9.Click += label9_Click;
             // 
             // pictureBox10
             // 
@@ -268,7 +269,7 @@
             panel2.BackgroundImageLayout = ImageLayout.None;
             panel2.BorderStyle = BorderStyle.Fixed3D;
             panel2.Controls.Add(label10);
-            panel2.Location = new Point(1230, 96);
+            panel2.Location = new Point(1243, 86);
             panel2.Name = "panel2";
             panel2.Size = new Size(310, 926);
             panel2.TabIndex = 21;
