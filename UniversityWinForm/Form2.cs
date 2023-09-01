@@ -41,7 +41,7 @@ namespace UniversityWinForm
             }
             else
             {
-                MessageBox.Show("Login or password is incorrect, please try again!", MessageBoxButtons.YesNoCancel(), MessageBoxIcon.Error);
+                MessageBox.Show("Login or password is incorrect, please try again!", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error);
             }
         }
     }
