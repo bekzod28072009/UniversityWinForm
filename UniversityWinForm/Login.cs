@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UniversityWinForm
 {
-    public partial class Form2 : Form
+    public partial class Login : Form
     {
-        public Form2()
+        public Login()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace UniversityWinForm
         {
             if (textBox1.Text == "Bekzod" && textBox3.Text == "bekzod28072009")
             {
-                new Form1().Show();
+                new Home().Show();
                 this.Hide();
                 textBox1.Clear();
                 textBox3.Clear();
