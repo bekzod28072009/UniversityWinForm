@@ -3,10 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Univer.Domein.Entity;
 
-namespace Univer.Serrvice.IService
+namespace Univer.Service.IService
 {
-    internal interface IStudentService
+    public interface IStudentService
     {
+        List<Student> GetAllAsync();
+
+        Task Add(Student student);
+
+        Task Update(long Id, Student student);
+
+        Task Delete(long Id);
     }
 }
