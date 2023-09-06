@@ -20,9 +20,7 @@ namespace UniversityWinForm
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Department department = new Department();
-            department.Show();
-            this.Hide();
+            
         }
 
         private void Home_Load(object sender, EventArgs e)

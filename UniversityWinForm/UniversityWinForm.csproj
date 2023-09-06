@@ -23,4 +23,21 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Stusents\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Univer.DataAcces\Univer.DataAcces.csproj" />
+    <ProjectReference Include="..\Univer.Domein\Univer.Domein.csproj" />
+    <ProjectReference Include="..\Univer.Serrvice\Univer.Serrvice.csproj" />
+  </ItemGroup>
+
 </Project>
