@@ -37,7 +37,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Univer.DataAcces\Univer.DataAcces.csproj" />
     <ProjectReference Include="..\Univer.Domein\Univer.Domein.csproj" />
-    <ProjectReference Include="..\Univer.Serrvice\Univer.Serrvice.csproj" />
+    <ProjectReference Include="..\Univer.Serrvice\Univer.Service.csproj" />
   </ItemGroup>
 
 </Project>
