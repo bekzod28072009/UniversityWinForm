@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UniversityWinForm.Stusents
+namespace UniversityWinForm
 {
-    public partial class Student : UserControl
+    public partial class StudentControl : UserControl
     {
-        public Student()
+        public StudentControl()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
